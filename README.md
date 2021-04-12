@@ -3,4 +3,5 @@ mshbrute.sh ==> *This script does three functions. first it accepts shodan_api_k
 
 ![Screenshot_2021-04-12_00-30-24](https://user-images.githubusercontent.com/49913818/114329139-a0864900-9b0c-11eb-838f-8c38ac830e23.png)
 
-Usage : Usage : <API> <QUERY> <Workspace> <usernames> <passwords> <service>.
+
+Usage : Usage : 'API' 'QUERY' 'Workspace' usernames.list passwords.list 'service'
