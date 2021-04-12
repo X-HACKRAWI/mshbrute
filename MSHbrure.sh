@@ -91,7 +91,7 @@ _CreateResourceFile()
 		use auxiliary/gather/shodan_search 
 		set verbose true 
 		set database true 
-		set shodan_apikey  kIWGHFKiwPXAxAllHzsKM8JXuvao6Ul5
+		set shodan_apikey  $API
 		set query $QUERY 
 		db_export -f xml $WORKSPACE.xml
 		run 
