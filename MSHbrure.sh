@@ -30,7 +30,7 @@ _inputValidation()
 			if [[ $var == -h ]] ; 
 			then 
 				echo
-				echo -e "$GREEN Usage $NC: <QUERY> <Workspace> <usernames> <passwords> <service>"
+				echo -e "$GREEN Usage $NC: <API> <QUERY> <Workspace> <usernames> <passwords> <service>"
 				echo 
 				exit 1 
 		else 
@@ -39,7 +39,7 @@ _inputValidation()
 			
 			echo -e "$RED[!]$NC Quiting"
 			echo
-			echo -e "$GREEN Usage $NC:  <QUERY> <Workspace> <usernames> <passwords> <service>"
+			echo -e "$GREEN Usage $NC: <API> <QUERY> <Workspace> <usernames> <passwords> <service>"
 			echo
 			sleep 2 
 			echo
