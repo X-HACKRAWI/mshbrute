@@ -3,4 +3,3 @@ mshbrute.sh ==> *This script does three functions. first it accepts shodan_api_k
 
 
 
-' Usage : Usage : <API> <QUERY> <Workspace> <usernames> <passwords> <service> '
