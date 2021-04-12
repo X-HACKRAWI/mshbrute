@@ -11,7 +11,7 @@ pass_file=$5
 user_file=$4
 QUERY=$2
 WORKSPACE=$3
-API=tnl3GRy7KEEp4z75bS1rfI0a18Iazhyl
+API=$1
 PATHTOFILE=/tmp/resource.rc 
 CHECK=$(service postgresql status | grep active | cut -d ":" -f 2)
 OUTPUT=hostsPerLine.txt
@@ -91,7 +91,7 @@ _CreateResourceFile()
 		use auxiliary/gather/shodan_search 
 		set verbose true 
 		set database true 
-		set shodan_apikey $API
+		set shodan_apikey  tnl3GRy7KEEp4z75bS1rfI0a18Iazhyl
 		set query $QUERY 
 		db_export -f xml $WORKSPACE.xml
 		run 
