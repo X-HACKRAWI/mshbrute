@@ -11,7 +11,7 @@ pass_file=$5
 user_file=$4
 QUERY=$2
 WORKSPACE=$3
-API=$1
+API="tnl3GRy7KEEp4z75bS1rfI0a18Iazhyl"
 PATHTOFILE=/tmp/resource.rc 
 CHECK=$(service postgresql status | grep active | cut -d ":" -f 2)
 OUTPUT=hostsPerLine.txt
@@ -30,7 +30,7 @@ _inputValidation()
 			if [[ $var == -h ]] ; 
 			then 
 				echo
-				echo -e "$GREEN Usage $NC: <API> <QUERY> <Workspace> <usernames> <passwords> <service>"
+				echo -e "$GREEN Usage $NC: <QUERY> <Workspace> <usernames> <passwords> <service>"
 				echo 
 				exit 1 
 		else 
@@ -39,7 +39,7 @@ _inputValidation()
 			
 			echo -e "$RED[!]$NC Quiting"
 			echo
-			echo -e "$GREEN Usage $NC: <API> <QUERY> <Workspace> <usernames> <passwords> <service>"
+			echo -e "$GREEN Usage $NC:  <QUERY> <Workspace> <usernames> <passwords> <service>"
 			echo
 			sleep 2 
 			echo
