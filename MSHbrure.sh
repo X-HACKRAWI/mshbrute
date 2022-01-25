@@ -57,7 +57,7 @@ _banner()
 		echo
 		echo -e " +--------------------------------------+"
 		echo -e " +       MSHBrute                      +"
-		echo -e " + 		$RED Author $NC:$GREEN inst@hackrawi11 $NC    +"
+		echo -e " + 		$RED Author $NC:$GREEN TG:"@HACKRAWI" $NC    +"
 		echo -e " +--------------------------------------+"
 		echo
 		
